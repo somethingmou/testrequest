@@ -1,4 +1,4 @@
-文件夹 yys_local_test 输入文件 a1127.xls  输出文件 a-result.xls
+﻿a文件夹 yys_local_test 输入文件 a1127.xls  输出文件 a-result.xls
 
 python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4 -P 暴击,90.速度,16 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击伤害,88 -DL 3216,150,20500 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
 
