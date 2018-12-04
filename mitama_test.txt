@@ -1,0 +1,118 @@
+文件夹 yys_local_test 输入文件 a1127.xls  输出文件 a-result.xls
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4 -P 暴击,90.速度,16 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击伤害,88 -DL 3216,150,20500 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 火灵,4 -P 效果命中,150 -2P 生命加成,54 -4P 效果命中,54  -AS False -J 速度,效果命中.3,3,3,3,3,3
+
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 蚌精,4 -P 暴击,90 -2P 生命加成,54 -4P 生命加成,54 -6P 暴击,54 -HL 13785,150,45000 -AS False -J 暴击,暴击伤害,生命加成,速度.5,3,5,3,5,0
+
+
+
+SP茨木 3323,150,15,112
+茨木 3216,150,10,112
+鬼切 3350,160,11,117
+玉澡前 3350,160,12,110
+小小黑 3377,150,9,109,9912
+5星食发鬼 1741,150,8,118
+6星食发鬼 2894,150,8,118
+辉夜姬 13785,150,5,108
+荒  3323,150,10,104
+书翁 11393,150,8,109
+樱花妖 13785,150,3,99
+吸血姬 3002,150,10,115,10937
+
+雪童子 121
+食梦貘 119
+椒图 117
+兵俑 116
+小松丸 115
+般若	114
+数珠 111
+凤凰火 106
+雨女 103
+
+1.攻击类
+1.1超星荒骷髅茨木
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4.荒骷髅,2 -P 暴击,90.速度,16 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击,55 -DL 3216,150,17120 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+1.2爆伤玉澡前
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4 -P 暴击,92 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击伤害,89 -DL 3350,160,0 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+1.3爆伤针女鬼切
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 针女,4 -P 暴击,89 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击伤害,89 -DL 3350,160,0 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+1.4食发鬼
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4 -P 暴击,92.速度,44 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击,55 -DL 1741,150,7000 -AS False -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+1.5小小黑（大洋洲书翁，面板16600，血量12200，蜃气楼针女，速度131－109=22）
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 针女,4.蜃气楼,2 -P 暴击,91.速度,22 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击,55 -DL 3377,150,16600 -HL 9912,150,0 -AS False -J 暴击,暴击伤害,攻击加成,速度.1,1,1,1,1,1
+
+1.6小小黑（华北白狼，面板9000*1.90=17100，血量9912+3964=13876，荒骷髅针女，109+12速）
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 针女,4.荒骷髅,2 -P 暴击,91.速度,0 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击,55 -DL 3377,150,16600 -HL 9912,150,0 -AS False -J 暴击,暴击伤害,攻击加成,速度.1,1,1,1,1,1
+
+1.6吸血姬（地域鬼王）
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4 -P 暴击,90.速度,0 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击伤害,55 -DL 3002,150,19000 -HL 10937,150,0 -AS False -J 暴击,暴击伤害,攻击加成,速度.1,1,1,1,1,1
+
+
+1.8普通针女
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 针女,4 -P 暴击,90 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击,55 -DL 3350,160,0 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+1.9普通破势
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 破势,4 -P 暴击,90 -2P 攻击加成,54 -4P 攻击加成,54 -6P 暴击,55 -DL 3350,160,0 -AO True -J 暴击,暴击伤害,攻击加成,速度.5,3,5,3,5,0
+
+2.控制类-－基于270*0.7=189，需要先剔除散件一速和招财一速
+2.1凤凰火 189-106=83
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 返魂香,4 -P 速度,83,效果命中,130 -2P 速度,54 -4P 效果命中,54  -AS False -J 速度,效果命中.3,3,3,3,3,3
+
+2.2兵俑 189-116=73
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 火灵,4 -P 速度,73,效果命中,130 -2P 速度,54 -4P 效果命中,54  -AS False -J 速度,效果命中.3,3,3,3,3,3
+
+2.3 般若（散件高速） 189-114=75
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls  -P 速度,75,效果命中,130 -2P 速度,54 -4P 效果命中,54  -AS False -J 速度,效果命中.3,3,3,3,3,3
+
+2.4 般若（散件低速）128-114=14
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls  -P 速度,75,效果命中,130 -2P 生命加成,54 -4P 效果命中,54  -AS False -J 速度,效果命中.3,3,3,3,3,3
+
+3.抵抗类
+3.1 雨女 189-103=86
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 招财猫,4 -P 速度,86,效果抵抗,120 -2P 速度,54 -4P 效果抵抗,54  -AS False -J 速度,效果命中,效果抵抗.3,3,3,3,3,3
+
+3.2 数珠 189-111=78
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 魅妖,4 -P 速度,78,效果抵抗,120 -2P 速度,54 -4P 效果抵抗,54  -AS False -J 速度,效果命中,效果抵抗.3,3,3,3,3,3
+
+4.奶盾类
+4.1 书翁（招财猫）-－同时计算正堆、反堆
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 招财猫,4 -P 暴击,92 -2P 生命加成,54 -4P 生命加成,54 -6P 暴击,55.生命加成,55  -HL 11393,150,40000 -AS False -J 暴击,暴击伤害,生命加成,速度.5,3,5,3,5,0
+
+4.2书翁（蜃气楼）
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 蜃气楼,2 -P 暴击,92 -2P 生命加成,54 -4P 生命加成,54 -6P 暴击,55.生命加成,55  -HL 11393,150,40000 -AS False -J 暴击,暴击伤害,生命加成,速度.5,3,5,3,5,0
+
+4.3辉夜姬（蚌精）--满暴需95
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 蚌精,4 -P 暴击,90 -2P 生命加成,54 -4P 生命加成,54 -6P 暴击,55  -HL 13785,150,40000 -AS False -J 暴击,暴击伤害,生命加成,速度.5,3,5,3,5,0
+
+4.4樱花妖 --满暴需97
+
+python yys_local_test/cal_mitama.py a1127.xls a-result.xls -M 蚌精,4 -P 暴击,90 -2P 生命加成,54 -4P 生命加成,54 -6P 暴击,55  -HL 13785,150,40000 -AS False -J 暴击,暴击伤害,生命加成,速度.5,3,5,3,5,0
+
+
+
